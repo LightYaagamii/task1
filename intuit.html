@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Plate-forme d'automatisation marketing et e-mail | Mailchimp</title>
+  <link rel="icon" href="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/mailchimp-favicons/apple-touch-icon-152x152-precomposed.png" type="image/x-icon">
+  <link rel="stylesheet" href="intuit.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="ad">
+    <span><p>Économisez 50% pendant 12&nbsp;mois<br> - offre limitée dans le temps. <a class="dotted">Lancez-vous dès aujourd'hui</a></p>
+    </span>
+  </div>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><img src="https://images.bizibl.com/sites/default/files/mailchimp-48.png" width="200"> </div>
+			<ul>
+				<li><a href="#">Tarifs</a></li>
+				<button class="Se">Se connecter</button>
+				<li class="as"><a href="#" ><i class="fa-solid fa-bars" ></i></a></li>
+			</ul>
+		</div>
+	</nav>
+  <div class="div2">
+    <h1>
+      Transformez vos e-mails en revenus
+    </h1>
+    <p>
+      Décrochez de nouveaux clients grâce à la plateforme n° 1 de l’automatisation <br> marketing et e-mail qui vous explique comment générer plus d’ouvertures, de<br> clics et de ventes.
+    </p>
+    <button>S'inscrire</button>
+  </div>
+  <div class="container">
+    <div class="image-container">
+        <img src="https://eep.io/images/yzco4xsimv0y/5EODYdgDf1houB82RfR8e0/08d95e211de2417c79e02b505f069062/Homepage-Feature-Card-Automations-Desktop-FR.png?w=630&fm=avif&q=60" alt="Image 1">
+        <div class="overlay-text">
+          Convertir à l'aide des<br> automatisations d'e-mail</div>
+    </div>
+    <div class="image-container">
+        <img src="https://eep.io/images/yzco4xsimv0y/3JSoRinRB2VTmBiD7NyEUg/56d56eaf1e60c8eae208f32dcce003fb/Homepage-Feature-Card-AI-Desktop-FR.png?w=630&fm=avif&q=60" alt="Image 2">
+        <div class="overlay-text">Créer plus rapidement grâce<br> à l'IA générative
+          </div>
+    </div>
+    <div class="image-container">
+        <img src="https://eep.io/images/yzco4xsimv0y/6QVNtP8As7OHsx5mivPn8f/c802814a27e36ee4a016556501e6ec85/Homepage-Feature-Card-Segmentation-Desktop.png?w=630&fm=avif&q=60" alt="Image 3">
+        <div class="overlay-text">Affinez avec la segmentation
+          </div>
+    </div>
+    <div class="image-container">
+        <img src="https://eep.io/images/yzco4xsimv0y/6JxWAec8e3X3OMFmX9dVvd/8cbf951aa2d5975d838cbeb81ee25aa1/Homepage-Feature-Card-Analytics-Reporting-Desktop-FR.png?w=630&fm=avif&q=60" alt="Image 4">
+        <div class="overlay-text">Optimiser avec des analyses<br> et des rapports
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    
+    <!-- Popup -->
+    <div class="popup" id="popup">
+      <h1>
+        Important Question!
+      </h1>
+        <p>Jamal was found dead, We are suspecting one of two people, since you know them both please inform us:<br> Who is Jamal's biggest enemy</p>
+        <button class="raa" onclick="checkAnswer('correct')">Rina </button>
+        <button class="aaa" onclick="checkAnswer('wrong')">Abdenour</button>
+    </div>
+    <script>
+      // Show popup after 20 seconds
+      setTimeout(function() {
+          document.getElementById('overlay').style.display = 'block';
+          document.getElementById('popup').style.display = 'block';
+      }, 20000); // 20 seconds
+
+      // Function to check the answer
+      function checkAnswer(answer) {
+          const message = (answer === 'correct') ? 'You chose the correct option!, A knife was found in her bag' : 'You chose the wrong option!, Abdenour has no enemies';
+          alert(message);
+          // Close the popup
+          document.getElementById('overlay').style.display = 'none';
+          document.getElementById('popup').style.display = 'none';
+      }
+  </script>
+</body>
+</html>
